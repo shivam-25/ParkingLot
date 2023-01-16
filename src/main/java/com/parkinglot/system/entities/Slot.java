@@ -12,6 +12,7 @@ public class Slot {
     private Long id;
     private String slotId;
     private String size;
+    @Column(columnDefinition = "boolean default false")
     private boolean occupied;
     @ManyToOne
     @JoinColumn(name = "floor_id")
