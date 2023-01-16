@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3abdc929-e57e-453f-9757-d31b2fcbbb1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/controller/ParkingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/dto/ParkingLotDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/entities/Floor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/entities/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/entities/Slot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/entities/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/repositories/FloorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/repositories/ParkingLotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/repositories/SlotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/services/ParkingLotService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="3abdc929-e57e-453f-9757-d31b2fcbbb1b" name="Changes" comment="Initial Project Setup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/entities/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/entities/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/entities/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/entities/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +128,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673888298836</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Project Setup">
+      <created>1673900417744</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673900417744</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +148,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Project Setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Project Setup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
