@@ -37,17 +37,24 @@ public class ParkingLotService {
     }
 
     public String allocateSlot(String parkingLotId, Vehicle vehicle) {
-        List<Floor> floors = floorRepository.findByParkingLotId(parkingLotId);
+        List<Floor> floors = floorRepository.findAll();
         String[] priority = {"XLarge", "Large", "Medium", "Small"};
         for (Floor floor : floors) {
             for (String size : priority) {
                 if (vehicle.getSize().equals(size)) {
-                    List<Slot> slots = slotRepository.findBySizeAndOccupied(size, false);
-                    if (!slots.isEmpty()) {
-                        Slot slot = slots.get(0);
-                        slot.setOccupied(true);
-                        slotRepository.save(slot);
-                        return floor.getFloorId() + ":" + slot.getId();
+                    Slot slotRequested = slotRepository.findBySlotId(parkingLotId);
+                    if(!slotRequested.isOccupied()) {
+                        slotRequested.setOccupied(true);
+                        slotRepository.save(slotRequested);
+                        return floor.getFloorId() + ":" + slotRequested.getId();
+                    } else {
+                        List<Slot> slots = slotRepository.findBySizeAndOccupied(size, false);
+                        if (!slots.isEmpty()) {
+                            Slot slot = slots.get(0);
+                            slot.setOccupied(true);
+                            slotRepository.save(slot);
+                            return floor.getFloorId() + ":" + slot.getId();
+                        }
                     }
                 }
             }

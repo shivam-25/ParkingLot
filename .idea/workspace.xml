@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3abdc929-e57e-453f-9757-d31b2fcbbb1b" name="Changes" comment="Updating ParkingLot and Vehicle class">
+    <list default="true" id="3abdc929-e57e-453f-9757-d31b2fcbbb1b" name="Changes" comment="updating slot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/entities/Slot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/entities/Slot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/repositories/FloorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/repositories/FloorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/services/ParkingLotService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkinglot/system/services/ParkingLotService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673901739249</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updating slot">
+      <created>1673902632823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673902632823</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,7 +166,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Project Setup" />
     <MESSAGE value="Updating ParkingLot and Vehicle class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating ParkingLot and Vehicle class" />
+    <MESSAGE value="updating slot" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating slot" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
